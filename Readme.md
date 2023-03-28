@@ -5,7 +5,7 @@
 
 ## Gennaio 2023
 
-#### Esercizio 1 [risolto]
+###s Esercizio 1 [risolto]
 Scrivere un programma di tipo client server composto da tre nodi.<br/>
 NODO 1: Client;<br />
 NODO 2: Client+server;<br />
