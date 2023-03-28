@@ -1,8 +1,50 @@
-scrivere un programma che permetta all'utente di inserire tre oggetti della classe animale.
-Tale classe deve avere i seguenti membri: nome_scientifico, nome_comune, eta, peso.
-il programma deve permettere di visualizzare i dati degli oggetti animale a vide secondo le seguenti scelte:
-a) nome_scientifico decrescente
-b) nome_comune crescente
-c)peso crescente o decrescente
+somma dei valori contenuti in un HashMap<br/>
+Calcolo della media dei valori contenuti in una HashMap<br/>
+Restituire il valore massimo delle chiavi HashMap.<br/>
 
 
+
+package esami.esame2022Ott.esercizio1Hash;
+
+public class GenHashTest {
+
+
+    public static void main(String[] args) {
+        GenericHashMap<Integer, Number> genericHashMap=new GenericHashMap<>();
+
+
+
+
+        int somma=0;
+        double average=0;
+        int keyMax=null;
+
+
+        for(int x=0;x<50; x++){
+            int n = (int)(Math.random()*100);
+            genericHashMap.put(x,n);
+        }
+
+        Set<Integer> keyset = genericHashMap.keySet();
+
+        for (int key: keyset){
+            Number value=genericHashMap.get(key);
+           if(keyMax==null ||   genericHashMap.get(keyMax)<value )
+                keyMax = key;
+            sum+= value;
+        }
+
+        average = sum/genericHashMap.size();
+
+        System.out.println("la somma e': " + sum);
+        System.out.println("la media e': " + average);
+        System.out.println("la chiave max e': " + keyMax);
+
+
+
+
+
+
+        System.out.println(genericHashMap.keySet());
+    }
+}

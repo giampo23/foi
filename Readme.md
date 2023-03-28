@@ -5,7 +5,7 @@
 
 ## Gennaio 2023
 
-###s Esercizio 1 [risolto]
+### Esercizio 1 [risolto]
 Scrivere un programma di tipo client server composto da tre nodi.<br/>
 NODO 1: Client;<br />
 NODO 2: Client+server;<br />
@@ -54,16 +54,17 @@ spiegare l'uso do carattere jolly. includere degli esempi
 
 ## Ottobre 2022
 
-### Esercizio 1
+### Esercizio 1 [risolto]
 Scrivere un programma che effettui le seguenti operazioni:<br/>
 somma dei valori contenuti in un HashMap<br/>
 Calcolo della media dei valori contenuti in una HashMap<br/>
 Restituire il valore massimo delle chiavi HashMap.<br/>
-Tali operazioni dovranno essere eseguite da una classe denominata “GenericHashMap” che faccia uso del costrutto Generic. Le HashMap gestite da tale classe dovranno essere del tipo HashMap<Integer,Integer>, HashMap<Integer,Long>, HashMap<Integer,Double>, HashMap<Integer,Float>
+Tali operazioni dovranno essere eseguite da una classe denominata “GenericHashMap” che faccia uso del costrutto Generic.<br/> 
+Le HashMap gestite da tale classe dovranno essere del tipo HashMap<Integer,Integer>, HashMap<Integer,Long>, HashMap<Integer,Double>, HashMap<Integer,Float>
 
 ### Esercizio 2
 Scrivere un programma che permetta di inserire tre oggetti della classe Studente. Tale classe deve avere i seguenti membri: Nome, Matricola, Eta’, lista esami sostenuti con relativo voto (uno o piu’ elementi). Il programma deve permettere di visualizzare i dati degli oggetti studenti a video secondo le seguenti scelte:<br/>
-a)Matricola decrescente<br/>
+a) Matricola decrescente<br/>
 b) Eta’ crescente<br/>
 c) Media degli esami più alta
 
