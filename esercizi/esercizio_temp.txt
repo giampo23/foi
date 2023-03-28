@@ -1,0 +1,8 @@
+scrivere un programma che permetta all'utente di inserire tre oggetti della classe animale.
+Tale classe deve avere i seguenti membri: nome_scientifico, nome_comune, eta, peso.
+il programma deve permettere di visualizzare i dati degli oggetti animale a vide secondo le seguenti scelte:
+a) nome_scientifico decrescente
+b) nome_comune crescente
+c)peso crescente o decrescente
+
+
