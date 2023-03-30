@@ -1,50 +1,81 @@
-somma dei valori contenuti in un HashMap<br/>
-Calcolo della media dei valori contenuti in una HashMap<br/>
-Restituire il valore massimo delle chiavi HashMap.<br/>
+Scrivere un programma che implementi un server che risponde sulla porta: 3333 e un client.<br/>
+Il client deve richiedere al server un numero randomico.<br/>
+Il server ogni volta che riceverà una richiesta da un client stamperà a video una stringa composta dall’ip e
+ porta del client che ha fatto la richiesta ed il numero randomico inviato.<br/>
+il client stamperà a video il messaggio di benvenuto ricevuto dal server contenente il valore randomico generato.
 
 
-
-package esami.esame2022Ott.esercizio1Hash;
-
-public class GenHashTest {
+public class TestSock {
 
 
-    public static void main(String[] args) {
-        GenericHashMap<Integer, Number> genericHashMap=new GenericHashMap<>();
+    public static void main (String[] args){
+
+       InetAddress address = InetAdress.getByName("localhost");
+       SocketInetAddress sa = new SocketInetAddress(address,3333);
+
+       Socket s1= new Socket();
+       s1.connect(sa, 2000);
+       BufferedWriter w1 = new BufferedWriter(new OutputStreamWriter(s1.getOutputStream()));
+       w1.write("ciao da 1\n");
+       w1.flush();
 
 
+       Socket s2= new Socket();
+       s2.connect(sa, 2000);
+       BufferedWriter w2 = new BufferedWriter(new OutputStreamWriter(s2.getOutputStream()));
+       w2.write("ciao da 1\n");
+       w2.flush();
 
-
-        int somma=0;
-        double average=0;
-        int keyMax=null;
-
-
-        for(int x=0;x<50; x++){
-            int n = (int)(Math.random()*100);
-            genericHashMap.put(x,n);
-        }
-
-        Set<Integer> keyset = genericHashMap.keySet();
-
-        for (int key: keyset){
-            Number value=genericHashMap.get(key);
-           if(keyMax==null ||   genericHashMap.get(keyMax)<value )
-                keyMax = key;
-            sum+= value;
-        }
-
-        average = sum/genericHashMap.size();
-
-        System.out.println("la somma e': " + sum);
-        System.out.println("la media e': " + average);
-        System.out.println("la chiave max e': " + keyMax);
-
-
-
-
-
-
-        System.out.println(genericHashMap.keySet());
     }
+
+
+}
+
+
+
+
+import java.io.*;
+//public class Server implements Runnable{
+    Thread thread;
+    ServerSocket server;
+
+    public Server(){
+        thread = new Thread(this, 'thread-server');
+        thread.start();
+    }
+
+
+    @Override
+    public void run(){
+
+
+    try{
+            server = new ServerSocket(3333);
+
+            Socket socket = server.accept();
+
+            BufferedReader r = new BufferedReader(new InputStreamReader(socket.inputStream()));
+
+            do{
+                String a = r.readLine();
+                System.out.println(a + "socket: " + socket.getLocalPort());
+
+
+            }while(true);
+
+
+
+    }catch (IOException e){
+
+            }
+
+
+
+
+
+    }
+
+
+
+
 }

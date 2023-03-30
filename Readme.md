@@ -75,7 +75,7 @@ Scrivere nel file (come input da tastiera) nome e cognome di tre persone, chiude
 
 
 ## Aprile 2022
-### Esercizio 1
+### Esercizio 1 [risolto]
 Scrivere un programma che implementi un server che risponde sulla porta: 3333 e un client.<br/>
 Il client deve richiedere al server un numero randomico.<br/>
 Il server ogni volta che riceverà una richiesta da un client stamperà a video una stringa composta dall’ip e porta del client che ha fatto la richiesta ed il numero randomico inviato.<br/>
