@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b635924-7e76-4502-9ac6-5bcae114fede" name="Changes" comment="primo commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2021Dic/esercizio3FileCanzoni/CanzoniDaFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2021Dic/esercizio3FileCanzoni/CanzoniDaFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Nov/esercizio1ordinamento/Esercizio1Ordinamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Nov/esercizio1ordinamento/Esercizio1Ordinamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Nov/esercizio2Animali/Animale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Nov/esercizio2Animali/Animale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Nov/esercizio2Animali/Esercizio2Animali.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Nov/esercizio2Animali/Esercizio2Animali.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Nov/esercizio2Animali/NomeComuneComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Nov/esercizio2Animali/NomeComuneComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Nov/esercizio2Animali/NomeScientificoComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Nov/esercizio2Animali/NomeScientificoComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Nov/esercizio2Animali/PesoComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Nov/esercizio2Animali/PesoComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Ott/esercizio1Hash/GenHashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Ott/esercizio1Hash/GenHashTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Ott/esercizio1Hash/GenericHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Ott/esercizio1Hash/GenericHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2022Ott/esercizio3File/Esercizio3FilePersone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2022Ott/esercizio3File/Esercizio3FilePersone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2023Gen/esercizio1ClientServer/Esercizio1ClientServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2023Gen/esercizio1ClientServer/Esercizio1ClientServerMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2023Gen/esercizio1ClientServer/Nodo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2023Gen/esercizio1ClientServer/Nodo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2023Gen/esercizio1ClientServer/Nodo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2023Gen/esercizio1ClientServer/Nodo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2023Gen/esercizio2Libri/EsercizioLibroCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2023Gen/esercizio2Libri/EsercizioLibroCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2023Gen/esercizio2Libri/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2023Gen/esercizio2Libri/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esame2023Gen/esercizio2Libri/LibroComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esame2023Gen/esercizio2Libri/LibroComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esameNoRiferimenti/esercizio1Numeri/HashPariDispari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esameNoRiferimenti/esercizio1Numeri/HashPariDispari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esameNoRiferimenti/eservizio3ServerData/ClientServerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esameNoRiferimenti/eservizio3ServerData/ClientServerData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/gpmultimedia/esami/esameNoRiferimenti/eservizio3ServerData/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/esami/esameNoRiferimenti/eservizio3ServerData/Server.java" afterDir="false" />
+    <list default="true" id="6b635924-7e76-4502-9ac6-5bcae114fede" name="Changes" comment="cambiato package">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Esercizio3FilePersone">
+  <component name="RunManager" selected="Application.EsercizioStudenti">
     <configuration name="ClientServerData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="net.gpmultimedia.clientserverdata.ClientServerData" />
       <module name="Foi" />
@@ -89,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Esercizio1ClientServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.gpmultimedia.esame2023Gen.esercizio1ClientServer.Esercizio1ClientServerMain" />
+    <configuration name="Esercizio3FilePersone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.gpmultimedia.esami.esame2022Ott.esercizio3File.Esercizio3FilePersone" />
       <module name="Foi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.gpmultimedia.esame2023Gen.esercizio1ClientServer.*" />
+          <option name="PATTERN" value="net.gpmultimedia.esami.esame2022Ott.esercizio3File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Esercizio3FilePersone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="net.gpmultimedia.esami.esame2022Ott.esercizio3File.Esercizio3FilePersone" />
+    <configuration name="EsercizioStudenti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="esami.esame2022Ott.esercizio2Studenti.EsercizioStudenti" />
       <module name="Foi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.gpmultimedia.esami.esame2022Ott.esercizio3File.*" />
+          <option name="PATTERN" value="esami.esame2022Ott.esercizio2Studenti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EsercizioStudenti" />
         <item itemvalue="Application.Esercizio3FilePersone" />
         <item itemvalue="Application.GenHashTest" />
         <item itemvalue="Application.HashPariDispari" />
         <item itemvalue="Application.ClientServerData" />
-        <item itemvalue="Application.Esercizio1ClientServerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +140,7 @@
       <workItem from="1678978945284" duration="9593000" />
       <workItem from="1679388769780" duration="6374000" />
       <workItem from="1679408431948" duration="35764000" />
-      <workItem from="1679987069658" duration="19373000" />
+      <workItem from="1679987069658" duration="26656000" />
     </task>
     <task id="LOCAL-00001" summary="primo commit">
       <created>1680024971462</created>
@@ -178,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680025041927</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cambiato package">
+      <created>1680026242457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680026242457</updated>
+    </task>
+    <task id="LOCAL-00004" summary="risolto altro esercizio">
+      <created>1680192838268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680192838268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="primo commit" />
+    <MESSAGE value="cambiato package" />
+    <MESSAGE value="risolto altro esercizio" />
+    <option name="LAST_COMMIT_MESSAGE" value="risolto altro esercizio" />
   </component>
 </project>

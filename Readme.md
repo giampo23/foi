@@ -62,7 +62,7 @@ Restituire il valore massimo delle chiavi HashMap.<br/>
 Tali operazioni dovranno essere eseguite da una classe denominata “GenericHashMap” che faccia uso del costrutto Generic.<br/> 
 Le HashMap gestite da tale classe dovranno essere del tipo HashMap<Integer,Integer>, HashMap<Integer,Long>, HashMap<Integer,Double>, HashMap<Integer,Float>
 
-### Esercizio 2
+### Esercizio 2 [risolto]
 Scrivere un programma che permetta di inserire tre oggetti della classe Studente. Tale classe deve avere i seguenti membri: Nome, Matricola, Eta’, lista esami sostenuti con relativo voto (uno o piu’ elementi). Il programma deve permettere di visualizzare i dati degli oggetti studenti a video secondo le seguenti scelte:<br/>
 a) Matricola decrescente<br/>
 b) Eta’ crescente<br/>
