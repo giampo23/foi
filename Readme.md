@@ -130,7 +130,7 @@ Scrivere un programma che crei un file di testo ad accesso sequenziale. Scrivere
 
 ## Febbraio 2021
 
-### Esercizio 1
+### Esercizio 1 [risolto]
 Scrivere un programma che crei un file di testo ad accesso sequenziale. Scrivere nel file: Titolo e numero di pagine di 30 oggetti di tipo libro contenuti in un array, i valori delle variabili devono essere inseriti negli oggetti come input da tastiera. Chiudere il file. Aprire il file in lettura e stampare a video solo i titoli dei libri che hanno più di 100 pagine.
 
 
