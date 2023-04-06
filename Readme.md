@@ -3,6 +3,34 @@
 ## - esercizi d'esame -
 
 
+## Aprile 2023
+
+### Esercizio 1 [risolto]
+Scrivere un programma che dato un numero n intero in ingresso da parte dell'utente 
+calcoli il valore del suo fattoriale secondo due algoritmi distinti:<br/>
+A) algoritmo ricorsivo<br/>
+B) algoritmo iterativo<br/>
+L'utente del programma deve avere la possibilità di scegliere quale dei due algoritmi utilizzare.<br/>
+Il programma dovrà mostrare a video il risultato dell'algoritmo scelto.
+
+
+
+### Esercizio 2 [risolto]
+Scrivere un programma che permetta all'utente di inserire tre oggetti della classe studente.<br/>
+Tale classe deve avere i seguenti membri: Nome, Matricola, età, lista esami sostenuti con relativo voto (uno o più elementi).<br/>
+Il programma deve permettere di visualizzare i dati degli oggetti studenti a video secondo le seguenti scelte:<br/>
+a) Matricola decrescente<br/>
+b) Età crescente<br/>
+c) media degli esami più alta.
+
+
+### Esercizio 3
+Domanda di carattere teorico: Collections frameworks. L'interfaccia Map. Metodi. La classe HashMap. Includere degli esempi.
+
+
+
+#################
+
 ## Gennaio 2023
 
 ### Esercizio 1 [risolto]
